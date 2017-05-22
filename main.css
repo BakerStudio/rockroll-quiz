@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+}
+
+button, input[type="text"] {
+  padding: 5px;
+}
+
+.start-button:hover {
+  cursor: pointer;
+  background-color: #ff6666;
+  color: black;
+}
+
+.start-button {
+	color: black;
+	font: 20px;
+	background-color: #ffff99;
+	border: 1px solid black;
+	text-decoration: none;
+	padding: 5px;
+	margin-top: 30px;
+	border-radius: 25px;
+}
+
+.container {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 550px;
+  background: aqua; /* For browsers that do not support gradients */
+  background: linear-gradient(aqua, lightgreen); /* Standard syntax (must be last) */
+}
+
+h1, h3 {
+	text-align: center;
+}
+
+.centerit {
+	text-align: center;
+}
+
+.question-container {
+	width: 60%;
+	margin: auto;
+	padding-top: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.question-style {
+	font-size: 30px;
+}
+
+.answer-container {
+	width: 60%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.button-container {
+	width: 40%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.message-container {
+	width: 60%;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+.hidden {
+	display: none;
+}
+
+.alert-box {
+	border: 1px solid black;
+	padding: 10px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+h1, h3, h5 {
+	margin-bottom: 50px;
+  font-family: 'Nova Mono', monospace;
+}
+
+h1 > span {
+  height: 200px;
+  position: absolute;
+  width: 20px;
+  left: 0;
+  top: 0;
+  transform-origin: bottom center;
+  text-align: center;
+}
+
+.char1 { transform: rotate(-36deg); }
+.char2 { transform: rotate(-30deg); }
+.char3 { transform: rotate(-24deg); }
+.char4 { transform: rotate(-18deg); }
+.char5 { transform: rotate(-12deg); }
+.char6 { transform: rotate(-6deg); }
+.char7 { transform: rotate(0deg); }
+.char8 { transform: rotate(6deg); }
+.char9 { transform: rotate(12deg); }
+.char10 { transform: rotate(18deg); }
+.char11 { transform: rotate(24deg); }
+.char12 { transform: rotate(30deg); }
+.char13 { transform: rotate(36deg); }
+
+.move-curved-text {
+	/*text-align: center;*/
+	position: relative;
+	left: 290px;
+	/*bottom: 5px;*/
+}
+
+label {
+	display: inline-block;
+	font: 20px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+input[type=radio]:checked + label {
+	color: red;
+}

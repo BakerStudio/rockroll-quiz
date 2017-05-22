@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title>Questions</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nova+Mono" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+	<div class="container">
+
+		<h1 class="fancy-title move-curved-text">
+		  <span class="char1">R</span>
+		  <span class="char2">o</span>
+		  <span class="char3">c</span>
+		  <span class="char4">k</span>
+		  <span class="char5">-</span>
+		  <span class="char6">a</span>
+		  <span class="char7">n</span>
+		  <span class="char8">d</span>
+		  <span class="char9">-</span>
+		  <span class="char10">R</span>
+		  <span class="char11">o</span>
+		  <span class="char12">l</span>
+		  <span class="char13">l</span>
+		</h1>
+
+		<br>
+		<h1 class="centerit">Quiz</h1>
+
+		<div class="question-container">
+			<br>
+			<p class="question-style">Which is the bestselling album of the Classic Rock era?</p>
+		</div>
+
+		<!-- <div class="message-container">
+			<p class="js-message-text"></p>
+		</div> -->
+
+		<div class="answer-container">
+			<form>
+		    <fieldset data-role="controlgroup">
+				<legend>Choose an answer</legend>
+
+		         	<input type="radio" name="radiogroup" id="r0" value="0" onclick='checkRadio(this.value)' />
+		         	<label for="r0">Cat</label><br>
+
+		         	<input type="radio" name="radiogroup" id="r1" value="1" onclick='checkRadio(this.value)' />
+		         	<label for="r1">Dog</label><br>
+
+		         	<input type="radio" name="radiogroup" id="r2" value="2" onclick='checkRadio(this.value)' />
+		         	<label for="r2">Hamster</label><br>
+
+		         	<input type="radio" name="radiogroup" id="r3" value="3" onclick='checkRadio(this.value)' />
+		         	<label for="r3">Lizard</label>
+
+		    </fieldset>
+		  </form>
+		</div>
+
+		<div class="button-container centerit">
+			<a class="js-check start-button" type="button"><strong>Check answer</strong></a>
+			<a class="js-next start-button hidden" type="button"><strong>&gt;&gt; Next &gt;&gt;</strong></a>
+			<a class="js-again start-button hidden" type='button'><strong>Play again?</strong></a>
+		</div>
+
+		<div class="message-container">
+			<p class="js-message-text centerit"></p>
+		</div>
+
+		<div class='js-summary centerit'><span></span></div>
+
+	<footer>
+		<p class="js-footer-counter centerit">x of y</p>
+	</footer>
+
+	</div> <!-- end of container -->
+
+	<audio id="successclip" src="tada.mp3" type="audio/mp3">
+			Your browser doesn't have HTML5 audio capabilities.
+	</audio>
+	
+	<audio id="wrongclip" src="sadtrombone.mp3" type="audio/mp3">
+			Your browser doesn't have HTML5 audio capabilities.
+	</audio>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" 
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" 
+        crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+</html>
